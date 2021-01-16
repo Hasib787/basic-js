@@ -21,3 +21,9 @@ var isHappyCodding=true;
 console.log(isCold);
 console.log(typeof isCold);
 console.log(isHappyCodding);
+
+//explore string case change index split
+ var promise="I promise I will work hard to become a good programmer";
+ console.log(promise.split("I"));
+ console.log(promise.indexOf("good"));
+ console.log(promise.toUpperCase());
