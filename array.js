@@ -17,3 +17,16 @@ console.log(friendsAge);
 friendsAge.unshift(787);
 console.log(friendsAge);
 
+
+//slice and splice
+
+var bankLine = ['Hasib', 'Moni', 'Sweety', 'Swarna', 'Surovi'];
+var part= bankLine.slice(1,3);
+console.log(part);
+console.log(bankLine);
+var anotherPart=bankLine.splice(2,3);
+console.log(anotherPart);
+console.log(bankLine);
+
+
+
