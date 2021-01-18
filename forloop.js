@@ -1,10 +1,10 @@
 
-// var nums = [55, 22, 77, 88, 46, 22, 456, 21, 32];
+var nums = [55, 22, 77, 88, 46, 22, 456, 21, 32];
 
-// for (var i = 0; i < nums.length; i++) {
-//     var element = nums[i];
-//     console.log(element);
-// }
+for (var i = 0; i < nums.length; i++) {
+    var element = nums[i];
+    console.log(element);
+}
 
 //for example
 var friends = ['Noman', 'Aman', 'Tarit', 'Fuhad', 'Saiful', 'Rubel'];
