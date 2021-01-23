@@ -9,3 +9,13 @@ function add2(numbers) {
     let sum = numbers[0] + numbers[1] + numbers[2];
     return sum;
 }
+function add3(number){
+    let sum=[0];
+    for (let i = 0; i < number.length; i++) {
+        let element = number[i];
+        sum=sum+element;
+    }
+    return sum;
+}
+let result=add3([5,8,6]);
+console.log(result);
