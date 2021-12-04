@@ -47,8 +47,24 @@ const car = {
 cars.push(car);
 // console.log(cars);
 
+const newCars = cars.map(car=>{
+    return name = car.name;
+});
+// console.log(newCars.toString().split(",").join("\n"));
+
+
+const addCar = {
+    name: "BMW",
+    models: "X5, X6",
+    color: "black",
+    year: "2019",
+    price: "70000",
+}
+cars.unshift(addCar);
+console.log(cars);
+
 const singleCars = cars.find((car)=>{
     return car.name === "Ford";
 });
-console.log("Single Car", singleCars);
+// console.log("Single Car", singleCars);
 
