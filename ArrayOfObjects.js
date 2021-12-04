@@ -33,9 +33,22 @@ let cars = [
       models: "Camaro, Corvette",
       color: "White",
       year: "2021",
-      priceL: "50000",
+      price: "50000",
   },
 ];
 
-console.log(cars);
+const car = {
+    name: "Toyota",
+    models: "Corolla, Camry",
+    color: "black",
+    year: "2020",
+    price: "60000",
+}
+cars.push(car);
+// console.log(cars);
+
+const singleCars = cars.find((car)=>{
+    return car.name === "Ford";
+});
+console.log("Single Car", singleCars);
 
