@@ -60,11 +60,23 @@ const addCar = {
     year: "2019",
     price: "70000",
 }
-cars.unshift(addCar);
-console.log(cars);
+// cars.unshift(addCar);
+// console.log(cars);
 
 const singleCars = cars.find((car)=>{
     return car.name === "Ford";
 });
 // console.log("Single Car", singleCars);
 
+const addCar2 = {
+    name: "Honda",
+    models: "Civic, Accord",
+    color: "red",
+    year: "2012",
+    price: "80000",
+}
+// cars.splice(4, 0, addCar2);
+// console.log(cars);
+
+const carName = Object.values(addCar2);
+console.log(carName);
