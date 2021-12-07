@@ -78,5 +78,26 @@ const addCar2 = {
 // cars.splice(4, 0, addCar2);
 // console.log(cars);
 
-const carName = Object.values(addCar2);
-console.log(carName);
+const carName = Object.entries(addCar2);
+// console.log(carName);
+
+let fruit = ["Apple", "Orange", "Banana", "Mango"];
+
+let newFruit = fruit.map(item => `Fruit: ${item}`);
+// console.log(newFruit);
+
+const carObject = Object.create(null);
+
+
+let number = 0;
+while(number < 10){
+    // console.log(number);
+    number++;
+}
+
+
+let numsArray = ["Hasib", "Rakib", "Anik", "Sohel"];
+for(let i =0; i<numsArray.length; i++){
+     element = numsArray[i];
+    console.log(element);
+}
